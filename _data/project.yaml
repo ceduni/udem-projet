@@ -1,4 +1,20 @@
-- submitted: 2023-04-18 10:13:29
+- submitted: 2023-04-28
+  supervisor: Eric Lacourse
+  title: Développement de la librairie StepMix pour les modèles de mélange généralisés
+  description: >
+    Les étudiants peuvent avoir accès au projet StepMix Python à <a href="https://github.com/Labo-Lacourse/stepmix">cette adresse</a>. 
+    Le développement de StepMix passe par le biais de différentes extensions: 
+    
+    1) Développer des modèles pour différentes distributions des valeurs observées (censored-normal, Poisson, Zero-Inflated Poisson) 
+
+    2) Extension pour des données longitudinales 
+    
+    3) Extensions pour des problèmes en grande dimension (régularisation et modèle de mélange d'analyse factorielle), etc. 
+    
+    Ce sont tous des projets/extensions qui peuvent être réalisés par plusieurs équipe qui travaillent parallèlement.
+  contact: eric.lacourse@umontreal.ca
+
+- submitted: 2023-04-18
   supervisor: Eugene Syriani, Louis-Edouard Lafontant
   title: Café sans fil
   description: >
@@ -10,7 +26,8 @@
     
     Plus de détails sur le <a href="https://github.com/ceduni/udem-cafe">répertoire GitHub du projet</a>
   contact: louis.edouard.lafontant@umontreal.ca
-- submitted: 2022-01-30 07:04:09
+
+- submitted: 2022-01-30
   supervisor: Eugene Syriani
   title: Intégrations dans Gentleman
   description: >
@@ -19,13 +36,15 @@
     Gentleman est un éditeur de modélisation projectionnel sur le web. Le travail consiste à ajouter plusieurs fonctionnalités 
     d'intégration avec d''autre technologies. La programmation est majoritairement en JavaScript.
   contact: syriani@iro.umontreal.ca
-- submitted: 2022-04-07 09:18:00
+
+- submitted: 2022-04-07
   supervisor: Glen Berseth
   title: Improving computer vision
   description: >
     The main goal of this project is to rethink how we manipulate signals in machine learning, and to propose a new convolutional network architectures.
   contact: gberseth@iro.umontreal.ca
-- submitted: 2022-04-07 13:25:55
+
+- submitted: 2022-04-07
   supervisor: Glen Berseth
   title: Generaliation in reinforcement learning
   description: >
@@ -33,7 +52,8 @@
     This includes studying methods that learn-to-learn and use this skill to learn how to adapt to changes in the types of tasks they are trying to solve.
     The work can also include studying how agents can learn better representations that allow agents to be robust to change which enables generalization.
   contact: gberseth@iro.umontreal.ca
-- submitted: 2022-04-15 13:36:03
+  
+- submitted: 2022-04-15
   supervisor: Guy Lapalme, Lena Krause
   title: MONA (iOS)
   description: >
@@ -53,7 +73,8 @@
     
     - Expérimentation avec l'ajout de contenus multimédia (photo, vidéo, balado) en collaboration avec la personne responsable de l'API"
   contact: lapalme@iro.umontreal.ca; info@monamontreal.org
-- submitted: 2022-04-15 13:36:27
+
+- submitted: 2022-04-15
   supervisor: 'Guy Lapalme, Lena Krause'
   title: MONA (Android)
   description: >
@@ -73,7 +94,8 @@
     
     - Autres fonctionnalités (paramètres, partage, multimédia) si la restructuration avance bien
   contact: lapalme@iro.umontreal.ca; info@monamontreal.org
-- submitted: 2022-04-15 13:36:49
+
+- submitted: 2022-04-15
   supervisor: Guy Lapalme, Lena Krause
   title: MONA (serveur)
   description: >
@@ -93,7 +115,8 @@
     
     - Concevoir et implémenter un tableau de bord analytique à propos des données MONA"
   contact: lapalme@iro.umontreal.ca; info@monamontreal.org
-- submitted: 2022-05-02 08:49:48
+
+- submitted: 2022-05-02
   supervisor: Esma Aimeur
   title: Simulate a functioning social media environment
   description: >
@@ -107,7 +130,8 @@
 
     The student would need to apply their dynamic web programming skills to achieve this.
   contact: aimeur@iro.umontreal.ca
-- submitted: 2022-05-02 08:50:48
+
+- submitted: 2022-05-02
   supervisor: Esma Aimeur
   title: Fake news detection based on predicting the veracity of online news through source analysis
   description: >
@@ -122,7 +146,8 @@
 
     The main tasks of the solution are to i) process the web, ii) check the trustworthiness of the sources, iii) and verify the news directly from its official source. The software solution may include but is not limited to, the use of two factors to verify the credibility and the nature of online news: trusted news sources and news publication date."
   contact: aimeur@iro.umontreal.ca
-- submitted: 2022-05-05 13:40:41
+
+- submitted: 2022-05-05
   supervisor: Eugene Syriani
   title: App pour la grande éclipse 2024
   description: >
@@ -136,7 +161,8 @@
     Le projet sera conjointement supervisé par la Fédération des astronomes amateurs du Québec. 
     Les atouts recherchés pour ce projet sont une familiarité avec la plateforme Xamarin, langage C#, SQL et développement d’application mobile.
   contact: syriani@iro.umontreal.ca
-- submitted: 2022-09-19 11:57:13
+
+- submitted: 2022-09-19
   supervisor: Michalis Famelis
   title: "DRUIDE: tracing uncertainty in software"
   description: >
@@ -144,7 +170,8 @@
     DRUIDE ("Design and Requirements Uncertainty IDE") is a proposed framework for modelling and tracing such uncertainty. 
     In this project, we will create a DRUIDE prototype.
   contact: famelis@iro.umontreal.ca
-- submitted: 2022-12-08 09:28:57
+
+- submitted: 2022-12-08
   supervisor: 'Houari Sahraoui'
   title: Application Web de reservation à la Station Biologique des Laurentides
   description: >
