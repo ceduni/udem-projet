@@ -1,0 +1,166 @@
+- submitted: 2023-04-18 10:13:29
+  supervisor: Eugene Syriani, Louis-Edouard Lafontant
+  title: Café sans fil
+  description: >
+    Ce projet pilote vise à améliorer le service des cafés étudiants de l'UdeM. 
+    Il consiste à développer une application web complète (backend + frontend) facilitant la recherche de cafés et produits, la prise de commandes et la gestion du menu et de l'inventaire. 
+    L'application sera accessible à tout membre de l'UdeM (étudiant, employé, professeur, chercheur...).et offrira certains rôles (membre, staff, admin) donnant accès à certaines fonctionnalités. 
+    L'infrastructure de l'application consiste principalement en une base de données assurant le stockage efficace des données, une API traitant les requêtes envoyées par les clients, 
+    et une application web permettant aux utilisateurs de visualiser et interagir avec les données de l'application. 
+    
+    Plus de détails sur le <a href="https://github.com/ceduni/udem-cafe">répertoire GitHub du projet</a>
+  contact: louis.edouard.lafontant@umontreal.ca
+- submitted: 2022-01-30 07:04:09
+  supervisor: Eugene Syriani
+  title: Intégrations dans Gentleman
+  description: >
+    C'est un projet qui vise à offrir des moyens facilitant l'interaction entre Gentleman et une autre source. 
+    Le travail se situe sur la frontière (interface publique) du code source de Gentleman. 
+    Gentleman est un éditeur de modélisation projectionnel sur le web. Le travail consiste à ajouter plusieurs fonctionnalités 
+    d'intégration avec d''autre technologies. La programmation est majoritairement en JavaScript.
+  contact: syriani@iro.umontreal.ca
+- submitted: 2022-04-07 09:18:00
+  supervisor: Glen Berseth
+  title: Improving computer vision
+  description: >
+    The main goal of this project is to rethink how we manipulate signals in machine learning, and to propose a new convolutional network architectures.
+  contact: gberseth@iro.umontreal.ca
+- submitted: 2022-04-07 13:25:55
+  supervisor: Glen Berseth
+  title: Generaliation in reinforcement learning
+  description: >
+    This project will focus on methods that provide generalization capabilities to deep reinforcement learning agents.
+    This includes studying methods that learn-to-learn and use this skill to learn how to adapt to changes in the types of tasks they are trying to solve.
+    The work can also include studying how agents can learn better representations that allow agents to be robust to change which enables generalization.
+  contact: gberseth@iro.umontreal.ca
+- submitted: 2022-04-15 13:36:03
+  supervisor: Guy Lapalme, Lena Krause
+  title: MONA (iOS)
+  description: >
+    MONA est application mobile libre et open source qui permet de découvrir, photographier et collectionner l'art public à Montréal, 
+    développée comme projet de recherche au sein d'une équipe multi-disciplinaire.
+
+    Le projet consiste à poursuivre le développement de l'application iOS (Swift) et requiert l'utilisation d'un MacOS et d'un iPhone. 
+
+
+    <b>Tâches prévues:</b>
+    
+    - Ajout d'un nouveau type de données (patrimoine)
+
+    - Amélioration des paramètres utilisateur (compte utilisateur, notifications)
+    
+    - Fonctionnalité de partage sur les réseaux sociaux dont Instagram en priorité
+    
+    - Expérimentation avec l'ajout de contenus multimédia (photo, vidéo, balado) en collaboration avec la personne responsable de l'API"
+  contact: lapalme@iro.umontreal.ca; info@monamontreal.org
+- submitted: 2022-04-15 13:36:27
+  supervisor: 'Guy Lapalme, Lena Krause'
+  title: MONA (Android)
+  description: >
+    MONA est application mobile libre et open source qui permet de découvrir, photographier et collectionner l'art public à Montréal, 
+    développée comme projet de recherche au sein d'une équipe multi-disciplinaire.
+
+    Le projet consiste à poursuivre le développement de l'application Android (Kotlin). 
+
+
+    <b>Tâches prévues:</b>
+
+    - Poursuivre l'implémentation de la nouvelle architecture (le code est en restructuration majeure pour faciliter la maintenance et favoriser une organisation modulaire)
+    
+    - Ajout d'un nouveau type de données (patrimoine)
+    
+    - Vérifier le bon fonctionnement de l'envoi des données utilisateur vers le serveur
+    
+    - Autres fonctionnalités (paramètres, partage, multimédia) si la restructuration avance bien
+  contact: lapalme@iro.umontreal.ca; info@monamontreal.org
+- submitted: 2022-04-15 13:36:49
+  supervisor: Guy Lapalme, Lena Krause
+  title: MONA (serveur)
+  description: >
+    MONA est application mobile libre et open source qui permet de découvrir, photographier et collectionner l'art public à Montréal, 
+    développée comme projet de recherche au sein d'une équipe multi-disciplinaire.
+
+    Le projet consiste à poursuivre le développement de l'interface admin (PHP/laravel et vue.js). 
+
+
+    <b>Tâches prévues:</b>
+
+    - Terminer l'implémentation du versionnement et de l'historique de modification pour permettre la modification des données depuis l'interface admin
+    
+    - Collaborer avec la personne responsable de l'API pour garantir la validité des données
+    
+    - Faire un ménage dans les données existantes: terminer le tri des doublons, supprimer les tests des développeur·se·s front-end et identifier les "vrais" contenus
+    
+    - Concevoir et implémenter un tableau de bord analytique à propos des données MONA"
+  contact: lapalme@iro.umontreal.ca; info@monamontreal.org
+- submitted: 2022-05-02 08:49:48
+  supervisor: Esma Aimeur
+  title: Simulate a functioning social media environment
+  description: >
+    With the proliferation of social medial platforms, it is more relevant now than ever before to focus on the protection of the users' privacy. 
+    Most targeted threats are based on monitoring the individuals' actions and exploiting the behavioral biases that they exhibit.
+
+    To counter this, the proposed  project aims to simulate a functioning social media environment in order to predict future threats, 
+    study user vulnerabilities, and ultimately propose privacy-preserving solutions. 
+    The task is to simulate social media activity by implementing a platform where a new user profile can be created, connections can be made, posts
+    can be published, etc.
+
+    The student would need to apply their dynamic web programming skills to achieve this.
+  contact: aimeur@iro.umontreal.ca
+- submitted: 2022-05-02 08:50:48
+  supervisor: Esma Aimeur
+  title: Fake news detection based on predicting the veracity of online news through source analysis
+  description: >
+    Fake news detection on social media presents unique characteristics and challenges which make the search for a solution anything but trivial. 
+    Consequently, automatic fake news detection remains a huge challenge, primarily because the content is designed in a way that it extremely resembles
+    the truth to deceive users, and it is often hard to determine its veracity by AI alone without additional information from third parties.
+
+
+    The main goal of this project is to develop a software solution to detect fake news based on predicting the veracity of online news through source analysis. 
+    The idea of the source analysis task is to check whether the news has been already published by trusted sources on the web.
+
+
+    The main tasks of the solution are to i) process the web, ii) check the trustworthiness of the sources, iii) and verify the news directly from its official source. The software solution may include but is not limited to, the use of two factors to verify the credibility and the nature of online news: trusted news sources and news publication date."
+  contact: aimeur@iro.umontreal.ca
+- submitted: 2022-05-05 13:40:41
+  supervisor: Eugene Syriani
+  title: App pour la grande éclipse 2024
+  description: >
+    Vous aimez l’astronomie et aimeriez participer à la création d’une app Android et iOS pour la grande éclipse solaire qui aura lieu en 2024?
+
+
+    Nous sommes à la recherche de 2 ou 3 étudiant.e.s intéressé.e.s à suivre le cours projet IFT3150 cet été. 
+    Le but est de créer une app éducative permettant aux utilisateurs de comprendre le phénomène des éclipses solaires et de suivre le déroulement de
+    celle-ci en temps réel, en fonction de leur positionnement lors de l’événement.
+    
+    Le projet sera conjointement supervisé par la Fédération des astronomes amateurs du Québec. 
+    Les atouts recherchés pour ce projet sont une familiarité avec la plateforme Xamarin, langage C#, SQL et développement d’application mobile.
+  contact: syriani@iro.umontreal.ca
+- submitted: 2022-09-19 11:57:13
+  supervisor: Michalis Famelis
+  title: "DRUIDE: tracing uncertainty in software"
+  description: >
+    When building software systems, we encounter different kinds of uncertainty that concerns lack of information about how our designs should look like. 
+    DRUIDE ("Design and Requirements Uncertainty IDE") is a proposed framework for modelling and tracing such uncertainty. 
+    In this project, we will create a DRUIDE prototype.
+  contact: famelis@iro.umontreal.ca
+- submitted: 2022-12-08 09:28:57
+  supervisor: 'Houari Sahraoui'
+  title: Application Web de reservation à la Station Biologique des Laurentides
+  description: >
+    La Station de biologie des Laurentides (SBL) de l’Université de Montréal est un lieu actif de recherche scientifique et d’enseignement depuis plus de 50 ans. 
+    Il est également possible d'y faire des retraites de rédaction, des séjours pendant lesquels les étudiants concentrent leurs efforts 
+    sur l’avancée de leur thèse ou mémoire, dans un cadre enchanteur et ressourçant. La SBL occupe un territoire de 16,8 km carrés de forêt, incluant 16 lacs. 
+    Elle est localisée dans les Laurentides, une région considérée comme un « hotspot » de biodiversité du Québec.
+
+
+    L’utilisation de la SBL est en hausse constante depuis 2011 et cette popularité grandissante amène le besoin de certains ajustements, 
+    dont celui du système de réservation. Ce dernier ayant été mis en place il y a plusieurs années, il consiste essentiellement en une suite 
+    d’opérations à effectuer manuellement, ce qui augmente le risque d’erreur lors de la manipulation de l’information et devient rapidement coûteux en temps.
+
+
+    Récemment, un nouveau système de réservation a été développé sous forme d’une application web (PHP- Laravel). Il consiste à automatiser les réservations 
+    d’individus ou de groupes. Il inclut diverses fonctionnalités, comme la réservation des chambres, la réservation de canots, etc. 
+    Ce projet consiste à ajouter de nouvelles fonctionnalités dont un système de paiement automatisé en ligne, à tester l’application web 
+    (unitaire, système et acceptation), ainsi qu'à la déployer un serveur.
+  contact: sahraouh@iro.umontreal.ca

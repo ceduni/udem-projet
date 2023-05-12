@@ -1,0 +1,107 @@
+---
+layout: default
+id: home
+title: Projet IFT à l'UdeM
+description: Présentation des cours de projet (IFT3150 OU IFT4055) disponibles aux étudiants du baccalauréat en informatique à l'Université de Montréal.
+---
+
+<header class="body-header">
+    <div class="body-header-desc">
+        <p>
+            Le programme du Baccalauréat en informatique vous offre l'opportunité de mettre à l'épreuve vos capacités et connaissances acquises dans le programme, par la réalisation d'un projet de votre choix.
+            Le projet sera supervisé par un professeur, membre du département d'informatique et de recherche opérationnelle (DIRO)<span class="optional"> et s'étalera sur la durée d'un trimestre</span>. 
+            Le projet doit avoir un objectif clairement défini et doit produire un résultat tangible.
+            <!-- (ex: programme, rapport, article, etc.) pouvant être évaluer de manière objective. -->
+
+        </p>
+
+        <h3 class="body-header-desc-title">Types de projet</h3>
+    
+        <ul class="bare-list project-types">
+            <li class="project-type"><span class="project-type-title">Réalisation</span> d'un programme informatique d'envergure</li>
+            <li class="project-type"><span class="project-type-title">Analyse</span> de systèmes informatiques ou d'algorithmes existants</li>
+            <li class="project-type"><span class="project-type-title">Conception</span> ou implémentation de nouveaux systèmes</li>
+            <li class="project-type"><span class="project-type-title">Évaluation</span> ou amélioration de systèmes existants.</li>
+        </ul>
+
+        <h3 class="body-header-desc-title">Pour commencer</h3>
+        <ul class="bare-list project-paths">
+            <li class="project-path">
+                <span class="project-path-title">J'ai un <strong>projet à proposer</strong></span> 
+                Trouvez un <a href="https://diro.umontreal.ca/repertoire-departement/professeurs/">professeur au DIRO</a> qui accepterait de superviser le projet.</li>
+            <li class="project-path">
+                <span class="project-path-title">Je <strong>cherche un projet</strong></span>
+                Consultez la <a href="#project-list">liste des projets disponibles</a> ou demandez aux professeurs du DIRO. 
+            </li>
+        </ul>
+        <p style="margin-top: 6px; font-size: 1.4em;">Vous pouvez aussi chercher un projet aux autres départements ou écoles de l’Université</p>
+    </div>
+
+    <aside class="aside-info">
+        <h3 class="aside-info-title">Modalité</h3>
+        <p>
+            Vous retrouvez toutes les modalités des cours <em>Projet informatique</em> en consultant ce <a href="https://diro.umontreal.ca/public/FAS/diro/Documents/1-Programmes-cours/IFT3150_IFT4055/DocumentExplicatif.pdf" target="_blank">document explicatif</a>. 
+        </p>
+
+        <h4 class="aside-info-subtitle">Préalables</h4>
+        <p>40 crédits réussis de cours IFT et préalables explicites selon la nature du projet </p>
+
+        <h4 class="aside-info-subtitle">Dates limites</h4>
+        <p>
+            <strong>Soumission d'un projet <span class="optional">(début)</span></strong>: Troisième semaine du trimestre. <br>
+            <strong>Soutenance et remise <span class="optional">(fin)</span></strong>: Dernière semaine du trimestre.
+        </p> 
+
+        <h4 class="aside-info-subtitle">Présentation</h4>
+        <p>
+            <span class="optional">À la fin du projet vous devrez faire une présentation auprès du responsable du projet et du responsable du cours IFT3150. <br></span>
+            La présentation est de 20 minutes, plus 5-10 minutes de discussion. Elle doit expliquer le problème initial 
+            et démontrée la solution apportée.
+        </p>
+
+        
+        <h4 class="aside-info-subtitle">Contact</h4>
+        <ul class="bare-list contact-infos">
+            <li class="dash contact-info">Écrivez à la <a href="mailto:stages@iro.umontreal.ca">coordonnatrice des cours IFT3150 et IFT4055</a></li>
+            <li class="dash contact-info">Téléphonez au 514-343-6111 (poste 3488)</li>
+        </ul>
+    </aside>
+    <!-- <div class="content-wrapper">
+    </div> -->
+</header>
+
+<section class="body-section">
+    <div class="section-main content-wrapper" id="project-list">
+        <header class="section-main-header">
+            <h2 class="section-title" id="services" title="Liste des projets offerts">
+                Projets <br> <span style="font-size: 0.9em">disponibles</span>
+            </h2>
+            <!-- <p>Les projets suivants vous permettent de participer à des projets (en cours) de recherche et d'amélioration des infrastructures existantes.</p> -->
+        </header>
+
+        <div class="section-group">
+            <div class="section-group-content project-section">
+                {% for item in site.data.project %}
+                    <div class="project">
+                        <h4 class="project-title">{{item.title}}</h4>
+                        <p class="project-supervisor">
+                            {{item.supervisor}}
+                        </p>
+                        <p class="project-date">
+                            Soumis le <strong>{{item.submitted | frenchDate }}</strong>
+                        </p>
+                        <p class="project-description">
+                            {{item.description | newline_to_br}}
+                        </p>
+                        
+                            
+                        <a class="bare-link contact-link" href="mailto:{{item.contact }}">
+                            <span class="text-recto">Intéressé à faire ce projet?</span> 
+                            <span class="text-verso">Contactez le responsable</span>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
