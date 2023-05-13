@@ -1,25 +1,11 @@
+body {
+    background: url(https://www.umontreal.ca/public/www/_processed_/c/d/csm_galerie_campusMIL-001_c2bd1921fc.jpg) 100%/cover no-repeat;
+    background: url(https://www.umontreal.ca/public/www/_processed_/8/c/csm_galerie_campusMIL-002_e7b1de0fff.jpg) 100%/cover no-repeat;
+}
 
 .page-header { 
     display: flex; justify-content: space-between;
-    /* background-color: #292723; */
     background-color: #292723a1;
-}
-
-body:before {
-    content: "";
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    background: url(https://www.umontreal.ca/public/www/_processed_/c/d/csm_galerie_campusMIL-001_c2bd1921fc.jpg) 100%/cover no-repeat;
-    z-index: -1;
-}
-
-body:after {
-    content: "";
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    background: url(https://www.umontreal.ca/public/www/_processed_/8/c/csm_galerie_campusMIL-002_e7b1de0fff.jpg) 100%/cover no-repeat;
-    transform: translateY(150%);
-    z-index: -1;
 }
 
 .teaching {
@@ -39,7 +25,7 @@ body:after {
 }
     .teaching-logo-name {
         display: flex;
-        font-size: 2em; font-weight: bold;
+        font-size: 2.2em; font-weight: bold;
     }
         .teaching-logo-code {
             color: #7cacff;
@@ -56,53 +42,20 @@ body:after {
             letter-spacing: -1px;
         }
 
-        .teaching-logo-type {
-            font-size: 1.3em; font-weight: 800;
-            color: #555; 
-        }
-
     .teaching-info {
         flex-grow: 2;
         padding-top: 12px; padding-left: 24px;
         color: #fff;
     }
 
-    .teaching-term {
-        margin: 0;
-        margin-bottom: 4px;
-        color: #BB2649;
-        font-family: Consolas, 'Courier New', Courier, monospace;
-        font-size: 1.5rem; font-weight: bold;
-    }
-
-    .teaching-desc {
-        font-size: 1.7em;
-        margin-top: 6px;
-    }
-
-    .teaching-schedule {
-        margin: 0;
-        line-height: 1.5;
-    }
-
     .teaching-title {
         margin: 0;
         font-size: 2.6em; font-weight: 300;
     }
-
-    .teaching-topics {
-        display: flex; flex-wrap: wrap;
-        margin: 0; margin-top: 6px;
-        max-width: 600px;
-    }
-
-    .teaching-topic {
-        color: #555;
-        background-color: #e5e4e2;
-        margin-right: 3px; margin-bottom: 3px;
-        padding: 3px 6px;
-        font-size: 1.4em; font-weight: 400;
-        line-height: 1.25;
+    
+    .teaching-desc {
+        font-size: 1.7em;
+        margin-top: 6px;
     }
 
     .header-action {
@@ -110,14 +63,14 @@ body:after {
         padding-right: 3%;
     }
     
-    .header-action a {
-        display: block;
-        padding: 8px 12px 9px;
-        background-color: #E87429;
-        font-size: 1.5em; font-weight: 500;
-        border-radius: 180px;
-        color: #fff;
-    }
+        .header-action a {
+            display: block;
+            padding: 8px 12px 9px;
+            background-color: #E87429;
+            font-size: 1.5em; font-weight: 500;
+            border-radius: 180px;
+            color: #fff;
+        }
 
 
 .content-wrapper { 
@@ -125,77 +78,94 @@ body:after {
     padding-left: 3%; padding-right: 3%;
 }
 
+
+
+.page-footer { 
+    position: relative;
+    padding: 24px 0 12px;
+    font-size: 8px; 
+    color: #fefefe; 
+    font-size: 1em;
+    text-align: center; 
+    background-color: #292723;
+    background-color: #2C5991;
+}
+
+    .page-footer .content-wrapper {
+        display: flex; flex-direction: column; align-items: center;
+    }
+
+    .footer-maintenance {
+        line-height: 1.5;
+        font-size: 1.4em;
+    }
+
+
 .page-body { 
     /* background-color: #f5f5f5;  */
     overflow: hidden; 
-    padding-bottom: 24px;
     /* z-index: 1; */
 }
 
 .body-header {
     display: flex;
     position: relative;
-    /* z-index: 5; */
+    z-index: 5;
 }
 
-.body-header .content-wrapper {
-    display: flex;
-    padding-top: 24px;
-}
+    .body-header .content-wrapper {
+        display: flex;
+        padding-top: 24px;
+    }
 
-.body-header-desc {
-    background-color: rgba(255, 255, 255, 0.95);
-    padding-left: 3%;
-    padding-right: 24px;
-    padding-bottom: 24px;
-}
+    .body-header-desc {
+        background-color: rgba(255, 255, 255, 0.95);
+        padding-left: 3%;
+        padding-right: 24px;
+        padding-bottom: 24px;
+    }
 
-.body-header-desc p {
-    font-size: 1.7em;
-    line-height: 1.35;
-}
+    .body-header-desc p {
+        font-size: 1.7em;
+        line-height: 1.35;
+    }
 
-.body-header-desc li {
-    font-size: 1.7em;
-    line-height: 1.35;
-}
-
-.body-header-desc-title {
-    margin-bottom: 6px;
-    font-weight: 500;
-    color: #2C5EB4;
-}
+    .body-header-desc-title {
+        margin-bottom: 6px;
+        font-weight: 500;
+        color: #2C5EB4;
+    }
 
 
 .project-types {
     display: flex; 
 }
 
-.body-header-desc .project-type {
+.project-type {
     position: relative;
     font-size: 1.4em;
     background-color: #fff;
     color: #222;
+    /* line-height: 1.35; */
     border-radius: 3px;
     margin-right: 12px;
     mix-blend-mode: multiply;
     overflow: hidden;
     border: 1px solid #e5e4e2;
 }
-
-.body-header-desc .project-type:after {
-    content: "";
-    position: absolute;
-    bottom: -12px;
-    /* left: calc(50% - 12px); */
-    right: -12px;
-    width: 24px;
-    height: 24px;
-    border-radius: 180px;
-    background-color: #BB2649;
-    background-color: #E87429;
-    z-index: 2;
-}
+    .project-type:after {
+        content: "";
+        position: absolute;
+        bottom: -12px;
+        /* left: calc(50% - 12px); */
+        right: -12px;
+        width: 24px;
+        height: 24px;
+        border-radius: 180px;
+        background-color: #BB2649;
+        background-color: #E87429;
+        z-index: 2;
+    }
 
 .project-type-title {
     display: block; 
@@ -207,7 +177,7 @@ body:after {
     display: flex;
 }
 
-.body-header-desc .project-path {
+.project-path {
     position: relative;
     padding: 8px 12px 12px;
     flex: 1 1;
@@ -277,25 +247,9 @@ body:after {
         margin-bottom: 3px;
     }
 
-.page-footer { 
-    position: relative;
-    padding: 24px 0 12px;
-    font-size: 8px; 
-    color: #fefefe; 
-    font-size: 1em;
-    text-align: center; 
-    background-color: #292723;
-    background-color: #2C5991;
-}
-
-    .page-footer .content-wrapper {
-        display: flex; flex-direction: column; align-items: center;
-    }
-
-
-.footer-maintenance {
-    line-height: 1.5;
-    font-size: 1.4em;
+.body-section {
+    background: repeating-linear-gradient(-30deg, #f2f5f2bd, #f2f5f2bd 3px, #e5e4e2dc 3px, #e5e4e2dc 6px);
+    padding-bottom: 12px;
 }
 
 .project-section {
@@ -311,10 +265,11 @@ body:after {
     position: relative;
     display: flex; flex-direction: column;
     width: 33%;
-    padding: 20px 12px 18px;
+    padding: 24px 12px 18px;
     margin-bottom: 6px;
-    background-color: #e5e4e2;
-    border-radius: 2px;
+    background-color: #fefefe;
+    box-shadow: 0 0 3px #e5e4e2;
+    border-radius: 3px;
 }
 
 .project-title {
@@ -352,13 +307,14 @@ body:after {
 .section-title {
     position: relative;
     display: flex; flex-direction: column; align-items: center; justify-content: center;
+    margin: 0 auto;
     width: 180px;
     height: 180px;
     background-color: #BB2649;
-    box-shadow: 0 0 2px 1000px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px 2px rgba(255, 255, 255, 0.5);
     color: #fff;
     border-radius: 50%;
-    z-index: -1;
+    z-index: 1;
 }
 
 .contact-link {
@@ -409,25 +365,76 @@ body:after {
         }
 
 
-
-
 @media only screen and (min-width: 0em) {
+    .page-header { 
+        background-color: #292723;
+    }
+
+    .content-wrapper { 
+        position: relative; 
+        padding-left: 1%; padding-right: 1%;
+    }
+        
+    .teaching-logo {
+        display: flex; flex-direction: column; align-items: flex-start; justify-content: center;
+        padding-left: 18px; padding-right: 18px;
+    }
+           
+            .teaching-logo-udem {
+                font-size: 1.3em;
+            }
+
+        .teaching-info {
+            padding-top: 8px; padding-left: 12px;
+        }
+
+        .teaching-title {
+            font-size: 2.2em;
+            line-height: 1.25;
+        }
+
+        .teaching-desc {
+            font-size: 1.5em;
+            margin-top: 4px;
+        }
+
+    .aside-info {
+        padding: 24px 2%;
+    }
+
     .body-header {
         flex-direction: column;
     }
+
+    .body-header-desc {
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 12px;
+    }    
 
     .body-header-desc p {
         font-size: 1.5em;
     }
 
-    .body-header-desc .project-type {
+    
+    .project-types {
+        display: flex; flex-wrap: wrap; justify-content: space-between;
+    }
+
+    .project-type {
         position: relative;
         padding: 4px 8px;
         margin-right: 1%;
+        width: 49%;
+        margin-bottom: 6px;
     }
 
-    .project-type-title {
-        font-size: 1.3em; 
+        .project-type-title {
+            font-size: 1.3em; 
+        }
+
+    .project-path {
+        margin-right: 6px;
     }
 
     .project-path-title {
@@ -437,15 +444,24 @@ body:after {
     .project-title {
         font-size: 1.8em;
     }
+    
 
     .section-title {
-        margin: 0 auto;
+        width: 150px;
+        height: 150px;
+        font-size: 2.6em;
+    }
+
+    .section-group {
+        padding: 0;
     }
 
     .project {
+        margin-bottom: 6px;
         width: 100%;
-        margin-bottom: 12px;
+        border-radius: 0;
     }
+
 
     .optional {
         display: none;
@@ -455,8 +471,46 @@ body:after {
 
 
 @media only screen and (min-width: 45em) {
-    .body-header-desc .project-type {
+    .page-header { 
+        background-color: #292723bd;
+    }
+        
+    .teaching-logo {
+        display: flex; flex-direction: column; align-items: center; justify-content: center;
+        padding-left: 24px; padding-right: 24px;
+    }
+            .teaching-logo-udem {
+                font-size: 1.2em;
+            }
+
+        .teaching-info {
+            padding-top: 12px; padding-left: 24px;
+        }
+
+        .teaching-title {
+            font-size: 2.6em;
+            line-height: 1.35;
+        }
+        
+        .teaching-desc {
+            font-size: 1.7em;
+            margin-top: 6px;
+        }
+
+    .body-header-desc {
+        padding-left: 3%;
+        padding-right: 24px;
+        padding-bottom: 24px;
+    }    
+        
+    .project-types {
+        display: flex; flex-wrap: nowrap;
+    }
+
+    .project-type {
         padding: 6px 12px;
+        width: unset;
+        margin-bottom: 0;
     }
 
     .project-type-title {
@@ -466,14 +520,35 @@ body:after {
     .project-path-title {
         font-size: 1.4em; 
     }
+    
+    .aside-info {
+        padding: 24px;
+    }
 
     .project {
-        width: 49.5%;
         margin-bottom: 8px;
+        width: 49.5%;
+        border-radius: 3px;
     }
+
+    .section-group {
+        padding-left: 2%; padding-right: 2%;
+    }
+    
+    .section-title {
+        width: 180px;
+        height: 180px;
+        font-size: 3em;
+    }
+
 }
 
 @media only screen and (min-width: 62em) {
+    .content-wrapper { 
+        position: relative; 
+        padding-left: 3%; padding-right: 3%;
+    }
+
     .body-header {
         flex-direction: row;
     }    
