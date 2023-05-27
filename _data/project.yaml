@@ -27,15 +27,15 @@
     Plus de détails sur le <a href="https://github.com/ceduni/udem-cafe">répertoire GitHub du projet</a>
   contact: louis.edouard.lafontant@umontreal.ca
 
-- submitted: 2022-01-30
-  supervisor: Eugene Syriani
-  title: Intégrations dans Gentleman
-  description: >
-    C'est un projet qui vise à offrir des moyens facilitant l'interaction entre Gentleman et une autre source. 
-    Le travail se situe sur la frontière (interface publique) du code source de Gentleman. 
-    Gentleman est un éditeur de modélisation projectionnel sur le web. Le travail consiste à ajouter plusieurs fonctionnalités 
-    d'intégration avec d''autre technologies. La programmation est majoritairement en JavaScript.
-  contact: syriani@iro.umontreal.ca
+# - submitted: 2022-01-30
+#   supervisor: Eugene Syriani
+#   title: Intégrations dans Gentleman
+#   description: >
+#     C'est un projet qui vise à offrir des moyens facilitant l'interaction entre Gentleman et une autre source. 
+#     Le travail se situe sur la frontière (interface publique) du code source de Gentleman. 
+#     Gentleman est un éditeur de modélisation projectionnel sur le web. Le travail consiste à ajouter plusieurs fonctionnalités 
+#     d'intégration avec d''autre technologies. La programmation est majoritairement en JavaScript.
+#   contact: syriani@iro.umontreal.ca
 
 - submitted: 2022-04-07
   supervisor: Glen Berseth
