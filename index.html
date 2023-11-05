@@ -81,7 +81,8 @@ description: Présentation des cours de type projet (IFT3150 OU IFT4055) disponi
 
         <div class="section-group content-wrapper">
             <div class="section-group-content project-section">
-                {% for item in site.data.project %}
+                {% assign open_projects = site.data.project | where: "status", "open" %}
+                {% for item in open_projects %}
                     <div class="project">
                         <h4 class="project-title">{{item.title}}</h4>
                         <p class="project-supervisor">
