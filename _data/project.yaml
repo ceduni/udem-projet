@@ -1,3 +1,19 @@
+- submitted: 2024-01-04
+  supervisor: Eugene Syriani, Louis-Edouard Lafontant
+  status: open
+  type: regular
+  title: Café sans-fil (suite)
+  description: >
+    Ce projet pilote vise à améliorer le service des cafés étudiants de l'UdeM. 
+    Lors de la session d'automne, nous avons développé l'infrastructure du projet (BD, API, CI/CD) et créé un prototype fonctionnel (<a href="https://cafesansfil.onrender.com/">application web</a>).
+    À date, l'application facilite la découverte des cafés et leurs produits, la prise de commandes (pour ramassage) et la gestion des cafés (infos de base, menu, bénévoles).
+
+    Cette session, nous voulons valider le prototype, améliorer la recherche et le système d'identification de produits et développer le segment social.
+    En vue d'une première version public (version 1.0), nous voulons intégrer l'application avec quelques cafés étudiants.
+    
+    Plus de détails sur le <a href="https://github.com/ceduni/udem-cafe">répertoire GitHub du projet</a>
+  contact: louis.edouard.lafontant@umontreal.ca
+
 - submitted: 2023-10-26
   supervisor: Max Mignotte
   type: regular
@@ -41,7 +57,7 @@
 
 - submitted: 2023-04-18
   supervisor: Eugene Syriani, Louis-Edouard Lafontant
-  status: close
+  status: open
   type: regular
   title: Café sans-fil
   description: >
